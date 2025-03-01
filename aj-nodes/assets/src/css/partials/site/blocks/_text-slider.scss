@@ -1,0 +1,58 @@
+.text-slider {
+	box-sizing: border-box;
+	padding: 59px 0 0 0;
+	border-radius: 10px;
+	margin-bottom: 0 !important;
+
+	.slick-dots {
+		box-sizing: border-box;
+		background-color: #4fbce6;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 21px 7.5%;
+		gap: 8px;
+		line-height: 0.65;
+		bottom: auto !important;
+		top: 0;
+		border-radius: 10px 10px 0 0;
+
+		li {
+			margin: 0;
+			padding: 0;
+			line-height: 0.65;
+			width: 17px;
+			height: 17px;
+
+			&.slick-active {
+				button {
+					background-color: #fff;
+				}
+			}
+
+			button {
+				padding: 0;
+				margin: 0;
+				width: 17px;
+				height: 17px;
+				border-radius: 20px;
+				background-color: #000;
+
+				&::before {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.text-slide {
+	box-sizing: border-box;
+	padding: 1.4% 0.5%;
+	background-color: #000;
+	color: #fff;
+	font-size: 38px;
+	@include font(spg, bold);
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+}

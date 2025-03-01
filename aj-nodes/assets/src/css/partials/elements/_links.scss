@@ -1,0 +1,40 @@
+/* -------------------------------------------------
+>> Base Styles
+---------------------------------------------------
+>> Do not edit these styles
+------------------------------------------------- */
+
+a {
+	text-decoration: none;
+	@include transition(all, 0.4s, ease-in-out);
+	outline: none;
+	position: relative;
+}
+
+/* -------------------------------------------------
+>> Project Styles
+---------------------------------------------------
+>> Edit these styles as required
+------------------------------------------------- */
+
+.page-section {
+	a,
+	&:visited {
+		color: var(--ajn_link_color);
+		border-bottom: 1px solid var(--ajn_link_border_color);
+
+		&:hover,
+		&:active {
+			color: var(--ajn_link_color_hover);
+			border-color: var(--ajn_link_border_color_hover);
+		}
+	}
+}
+
+.post-image,
+.post-title {
+	a,
+	&:visited {
+		border-bottom: none;
+	}
+}

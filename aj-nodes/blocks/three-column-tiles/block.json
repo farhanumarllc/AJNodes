@@ -1,0 +1,17 @@
+{
+	"name": "acf/three-column-tiles",
+	"title": "Three Column Tiles",
+	"description": "A custom three column tiles block.",
+	"category": "theme-blocks",
+	"icon": "admin-links",
+	"keywords": ["'jump','location"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-three-column-tiles.php"
+	},
+
+	"align": "full"
+}

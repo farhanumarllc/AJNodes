@@ -1,0 +1,17 @@
+{
+	"name": "acf/how-we-work",
+	"title": "How We Work",
+	"description": "A custom how we work block.",
+	"category": "theme-blocks",
+	"icon": "admin-links",
+	"keywords": ["'jump','location"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-how-we-work.php"
+	},
+
+	"align": "full"
+}

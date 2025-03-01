@@ -1,0 +1,17 @@
+{
+	"name": "acf/featured-para",
+	"title": "Featured Para",
+	"description": "A custom featured Para block.",
+	"category": "theme-blocks",
+	"icon": "admin-links",
+	"keywords": ["'jump','location"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-featured-para.php"
+	},
+
+	"align": "full"
+}

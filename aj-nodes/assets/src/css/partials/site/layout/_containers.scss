@@ -1,0 +1,68 @@
+/****
+ *
+ * containers
+ *
+****/
+
+.wrapper {
+	max-width: 1358px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.ctn-1488 {
+	.wrapper {
+		max-width: 1488px;
+	}
+}
+
+.ctn-1080 {
+	.wrapper {
+		max-width: 1080px;
+	}
+}
+
+.ctn-1060 {
+	.wrapper {
+		max-width: 1060px;
+	}
+}
+
+.ctn-980 {
+	.wrapper {
+		max-width: 980px;
+	}
+}
+
+.ctn-940 {
+	.wrapper {
+		max-width: 980px;
+	}
+}
+
+.ctn-840 {
+	.wrapper {
+		max-width: 840px;
+	}
+}
+
+.ctn-760 {
+	.wrapper {
+		max-width: 760px;
+	}
+}
+
+.ctn-full-width {
+	.wrapper {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.ctn-black {
+	background-color: #171615;
+
+	* {
+		color: #ffffff;
+	}
+}

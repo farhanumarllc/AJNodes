@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_120" data-name="Group 120" transform="translate(-2698 -11397)">
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="20" cy="20" r="20" transform="translate(2698 11397)" fill="#fff"/>
+    <g id="Iconly_Light-Outline_Arrow---Down" data-name="Iconly/Light-Outline/Arrow---Down" transform="translate(2717.785 11435.503) rotate(-135)">
+      <g id="Arrow---Down" transform="translate(5.5 4)">
+        <path id="Combined-Shape" d="M7.583,0a.84.84,0,0,1,.832.726L8.423.84V15.6l5.31-5.332A.84.84,0,0,1,15,11.357l-.081.094L8.179,18.224a.841.841,0,0,1-.139.113l-.045.027-.041.022-.063.027-.049.018-.063.017-.044.01-.067.009-.052,0H7.551l-.049,0,.082,0a.843.843,0,0,1-.155-.014l-.037-.008c-.025-.006-.05-.013-.073-.021l-.037-.013c-.025-.01-.049-.02-.073-.032l-.034-.018-.054-.033-.037-.026-.01-.007a.84.84,0,0,1-.084-.073h0L.244,11.451a.84.84,0,0,1,1.1-1.266l.094.081L6.743,15.6V.84A.84.84,0,0,1,7.583,0Z" transform="translate(0)" fill="#171615"/>
+      </g>
+    </g>
+  </g>
+</svg>

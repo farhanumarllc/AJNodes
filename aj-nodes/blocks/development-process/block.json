@@ -1,0 +1,26 @@
+{
+	"name": "acf/development-process",
+	"title": "Development Process",
+	"description": "A custom development-process block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-development-process"],
+	"script": ["block-development-process"],
+	"icon": "development-process",
+	"keywords": ["development-process"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-development-process.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "development-process-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

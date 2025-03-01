@@ -1,0 +1,26 @@
+{
+	"name": "acf/section-head",
+	"title": "Section Head",
+	"description": "A custom section-head block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-section-head"],
+	"script": ["block-section-head"],
+	"icon": "section-head",
+	"keywords": ["section-head"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-section-head.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "section-head-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

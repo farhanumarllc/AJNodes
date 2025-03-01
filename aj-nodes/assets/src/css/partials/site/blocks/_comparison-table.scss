@@ -1,0 +1,83 @@
+.table-head {
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+.comparison-table {
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin: 20px 0;
+	}
+
+	thead {
+		tr {
+			border: none;
+		}
+	}
+
+	th,
+	td {
+		padding: 15px;
+		text-align: center;
+		border: 1px solid #ddd;
+
+		&:first-child {
+			width: 32.62%;
+		}
+	}
+
+	tr {
+		td {
+			transition: all 0.3s ease-in-out;
+			transform: scale(1);
+		}
+
+		&:hover {
+			td {
+				transform: scale(1.2);
+			}
+		}
+	}
+
+	th {
+		background-color: #000;
+		color: #4fbce6;
+		font-size: 50px;
+		padding: 50px 30px;
+		border: none;
+
+		&:first-child {
+			background-color: transparent;
+		}
+
+		&:nth-child(2) {
+			border-radius: 10px 0 0 0;
+		}
+
+		&:last-child {
+			border-radius: 0 10px 0 0;
+		}
+	}
+
+	td {
+		text-align: center;
+		font-size: 24px;
+		@include font(spg, bold);
+		&:first-child {
+			padding: 3% 5%;
+			text-align: left;
+		}
+	}
+
+	tbody {
+		tr {
+			&:last-child {
+				td {
+					border: none;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"name": "acf/theme-table",
+	"title": "Theme Table",
+	"description": "A custom theme-table block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-theme-table"],
+	"script": ["block-theme-table"],
+	"icon": "theme-table",
+	"keywords": ["theme-table"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-theme-table.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "theme-table-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

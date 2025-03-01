@@ -1,0 +1,26 @@
+{
+	"name": "acf/midpage-cta",
+	"title": "Midpage CTA",
+	"description": "A custom midpage-cta block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-midpage-cta"],
+	"script": ["block-midpage-cta"],
+	"icon": "midpage-cta",
+	"keywords": ["midpage-cta"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-midpage-cta.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "midpage-cta-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

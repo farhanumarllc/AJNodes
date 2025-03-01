@@ -1,0 +1,44 @@
+.staff-tabs {
+	.heading-2 {
+		text-align: center;
+		margin-bottom: 72px;
+	}
+}
+
+.staff-nav {
+	margin-top: 72px;
+	text-align: center;
+
+	ul {
+		width: max-content;
+		box-sizing: border-box;
+		padding: 12px;
+		background-color: #ebf8fd;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 12px;
+		border-radius: 200px;
+		margin: 0 auto;
+
+		li {
+			padding: 0;
+			margin: 0;
+
+			a,
+			a:visited {
+				padding: 8px 24px;
+				border-radius: 30px;
+				box-sizing: border-box;
+				color: #000000;
+				transition: all 0.3s ease-in-out;
+				border: none;
+
+				&.current {
+					color: #ffffff;
+					background-color: #4fbce6;
+				}
+			}
+		}
+	}
+}

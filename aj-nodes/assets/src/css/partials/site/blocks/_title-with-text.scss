@@ -1,0 +1,41 @@
+.title-with-text {
+	display: flow-root;
+
+	&.variation {
+		.twt-right {
+			margin-top: -80px;
+		}
+	}
+}
+
+.twt-left {
+	float: left;
+	max-width: 740px;
+}
+
+.twt-title {
+	.heading-2 {
+		margin-bottom: 0;
+		line-height: 1.069;
+	}
+}
+
+.twt-button {
+	margin-top: 10%;
+	line-height: 0.65;
+}
+
+.twt-right {
+	float: right;
+	max-width: 656px;
+	margin-top: -13.6%;
+
+	p {
+		font-size: 26px;
+		line-height: 1.38;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
