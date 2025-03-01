@@ -1,0 +1,26 @@
+{
+	"name": "acf/benefits",
+	"title": "Benefits",
+	"description": "A custom benefits block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-benefits"],
+	"script": ["block-benefits"],
+	"icon": "benefits",
+	"keywords": ["benefits"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-benefits.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "benefits-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

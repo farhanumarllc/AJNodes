@@ -1,0 +1,26 @@
+{
+	"name": "acf/image-tile",
+	"title": "Image Tile",
+	"description": "A custom image-tile block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-image-tile"],
+	"script": ["block-image-tile"],
+	"icon": "image-tile",
+	"keywords": ["image-tile"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-image-tile.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "image-tile-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

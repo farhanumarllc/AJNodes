@@ -1,0 +1,26 @@
+{
+	"name": "acf/our-team",
+	"title": "Our Team",
+	"description": "A custom our-team block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-our-team"],
+	"script": ["block-our-team"],
+	"icon": "our-team",
+	"keywords": ["our-team"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-our-team.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "our-team-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

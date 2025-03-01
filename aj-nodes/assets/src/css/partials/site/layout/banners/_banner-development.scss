@@ -1,0 +1,57 @@
+.hero-development {
+	background-color: #171615;
+	* {
+		color: #fff;
+	}
+
+	&.hero-development-var {
+		.hero-dev-text {
+			width: 60%;
+
+			p {
+				max-width: 625px;
+			}
+		}
+	}
+}
+
+.hero-dev-inner {
+	box-sizing: border-box;
+	padding: 175px 0 96px;
+
+	.heading-1 {
+		line-height: 0.98;
+		margin-bottom: 28px;
+	}
+}
+
+.hero-dev-text {
+	width: 46.02%;
+
+	p {
+		@include font(int, light);
+		font-size: 42px;
+		line-height: 1.28;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		span {
+			@include font(int, sbold, weight);
+		}
+	}
+}
+
+.hero-dev-image {
+	width: 26.87%;
+	line-height: 0.65;
+	aspect-ratio: 365/581;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 12px;
+	}
+}

@@ -1,0 +1,77 @@
+.floating-items {
+	position: relative;
+	height: 540px;
+}
+
+.floating-item {
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 22px 43px 20px 26px;
+	border: 1px solid;
+	border-radius: 250px;
+	gap: 24px;
+	display: inline-flex;
+	align-items: center;
+	position: absolute;
+	transition: transform 0.3s ease-out;
+
+	&:nth-child(1) {
+		left: 10px;
+		top: 35px;
+		transform: rotate(16.1deg);
+	}
+
+	&:nth-child(2) {
+		left: 16%;
+		top: 26%;
+		transform: rotate(-62deg);
+	}
+
+	&:nth-child(3) {
+		transform: rotate(54deg);
+		left: 48.1%;
+		top: 20.8%;
+	}
+
+	&:nth-child(4) {
+		transform: rotate(-24.1deg);
+		top: 10.7%;
+		right: 0;
+	}
+
+	&:nth-child(5) {
+		bottom: 20.9%;
+		left: -3%;
+		transform: rotate(52deg);
+	}
+
+	&:nth-child(6) {
+		bottom: 13.5%;
+		left: 42.6%;
+		transform: rotate(24deg);
+	}
+
+	&:nth-child(7) {
+		bottom: 22.7%;
+		right: -31.2px;
+		transform: rotate(69deg);
+	}
+}
+
+.floating-dot {
+	width: 43px;
+	height: 43px;
+	border-radius: 50px;
+	background-color: #4fbce6;
+}
+
+.floating-text {
+	width: calc(100% - 67px);
+	font-size: 24px;
+	line-height: 1.08;
+	@include font(spg, reg);
+
+	span {
+		@include font(spg, bold);
+	}
+}

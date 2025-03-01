@@ -1,0 +1,26 @@
+{
+	"name": "acf/staff-augmentation",
+	"title": "Staff Augmentation",
+	"description": "A custom staff-augmentation block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-staff-augmentation"],
+	"script": ["block-staff-augmentation"],
+	"icon": "staff-augmentation",
+	"keywords": ["staff-augmentation"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-staff-augmentation.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "staff-augmentation-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

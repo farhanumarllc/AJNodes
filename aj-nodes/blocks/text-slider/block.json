@@ -1,0 +1,26 @@
+{
+	"name": "acf/text-slider",
+	"title": "Text Slider",
+	"description": "A custom text-slider block.",
+	"category": "theme-blocks",
+	"editorScript": ["block-text-slider"],
+	"script": ["block-text-slider"],
+	"icon": "text-slider",
+	"keywords": ["text-slider"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-text-slider.php"
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"preview": "text-slider-preview.webp"
+			}
+		}
+	},
+	"align": "full"
+}

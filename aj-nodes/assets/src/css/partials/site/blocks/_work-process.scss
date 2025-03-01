@@ -1,0 +1,55 @@
+.work-process {
+}
+
+.work-process-row {
+	gap: 40px;
+	display: flex;
+	align-items: flex-end;
+
+	&:nth-child(3n + 3) {
+		align-items: flex-start;
+	}
+
+	&:nth-child(2n + 2) {
+		justify-content: center;
+	}
+
+	&:nth-child(n + 2) {
+		margin-top: 40px;
+	}
+}
+
+.work-process-tile {
+	width: calc(50% - 20px);
+
+	a,
+	a:visited {
+		aspect-ratio: initial;
+		padding: 80px 80px 60px;
+		background-color: #fff;
+		border-color: #000000;
+
+		p {
+			color: #5a5a5a;
+			font-size: 26px;
+		}
+
+		&:hover {
+			* {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.text-52 {
+	font-size: 52px;
+	@include font(spg, bold);
+	transition: all 0.3s ease-in-out;
+}
+
+.work-process-tile-inner {
+	p {
+		transition: all 0.3s ease-in-out;
+	}
+}

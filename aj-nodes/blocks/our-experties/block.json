@@ -1,0 +1,17 @@
+{
+	"name": "acf/our-experties",
+	"title": "Our Experties",
+	"description": "A custom our experties block.",
+	"category": "theme-blocks",
+	"icon": "admin-links",
+	"keywords": ["'jump','location"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-our-experties.php"
+	},
+
+	"align": "full"
+}

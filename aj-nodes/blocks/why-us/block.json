@@ -1,0 +1,17 @@
+{
+	"name": "acf/why-us",
+	"title": "Why Us",
+	"description": "A custom why-usblock.",
+	"category": "theme-blocks",
+	"icon": "admin-links",
+	"keywords": ["'jump','location"],
+	"supports": {
+		"align": true
+	},
+	"acf": {
+		"mode": "edit",
+		"renderTemplate": "block-why-us.php"
+	},
+
+	"align": "full"
+}
